@@ -1,0 +1,31 @@
+<div class="central">
+  <ul>
+  <li><select ng-model="lang">
+  <option 
+    ng-repeat="language in languages" 
+    value="{{language}}" 
+    ng-selected="lang.code==language.code"
+  > {{language.Descripcion}}
+  </option> 
+</select>
+<hr>
+</li><li>
+
+<a class="amarino" href="#home" data-text="Logout"></a>
+<hr>
+</li><li>
+<a class="amarino" href="#students" data-text="Students"></a>
+ <hr>
+</li>
+  
+</ul>
+</div>
+<style>
+   body {
+    background-color:white; 
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  
+</style>

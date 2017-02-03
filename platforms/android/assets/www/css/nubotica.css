@@ -1,0 +1,28 @@
+ .amarino {
+    color: rgb(0, 86, 125);
+ }
+
+ .aceleste {
+    color: rgb(0, 93, 222);
+ }
+
+ .blanco {
+      color: rgb(255, 255, 255);
+ }
+
+ .pblack{
+     font-family: "prometo", sans-serif;
+     font-style: normal;
+ }
+
+ .blue-box {
+    background-color: rgb(0, 86, 125);
+    color:white;
+}
+
+ ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+     }

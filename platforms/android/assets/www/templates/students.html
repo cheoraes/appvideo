@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3 col-xs-3"></div>
+    <div class="col-sm-6 col-xs-6">
+      <div data-text="Pick a student"></div>
+      <ul>
+        <li class="blue-box" ng-repeat="estudiante in estudiantes" ng-click="goToStudentMenu(estudiante)">
+          {{estudiante.nombre}} {{estudiante.apellido}}
+        </li>
+      </ul>
+    </div>
+    </div>
+  </div>
+
+<style>
+  body {
+    background: url(img/bg-celeste.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+</style>

@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-5 col-xs-5">
+      <div class="amarino">{{estudiante.nombre}} {{estudiante.apellido}}</div>
+      <ul class="">
+        <li class ="blue-box font-white" ng-click="mostrar(opciones,0)" data-text="Evaluation"></li>
+        <li class ="blue-box font-white" ng-click="mostrar(opciones,1)" data-text="Pictures"></li>
+        <li class ="blue-box font-white" ng-click="mostrar(opciones,2)" data-text="Videos"></li>
+      </ul>
+    </div>
+    <div class="col-sm-1 col-xs-1"></div>
+    <div class="col-sm-6 col-xs-6">
+      <ul  class="" ng-repeat="opcion in opciones" ng-show="opcion.show">
+      <li class ="blue-box font-white" ng-repeat="item in opcion.items" ng-click="ejecutarItem(item)">{{item.titulo}}</li>
+    </ul></div>
+  </div>
+</div>
+
+
+  
+  
+</div><style>
+  body {
+    background: url(img/bg-celeste.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+</style>
